@@ -1,3 +1,131 @@
-hello
-world
-{h1}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .contact {
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        /* Стили для кнопок */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .resume-button {
+            padding: 15px 30px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .download-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+        
+        .social-btn {
+            background-color: #555;
+            color: white;
+        }
+        
+        .social-btn:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Иванов Иван Иванович</h1>
+        <p>Разработчик программного обеспечения</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Контактная информация</div>
+        <ul>
+            <li><span class="contact">Телефон:</span> +7 (999) 123-45-67</li>
+            <li><span class="contact">Email:</span> ivanov@example.com</li>
+            <li><span class="contact">Город:</span> Москва</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Профессиональный профиль</div>
+        <p>
+            Опытный разработчик с более чем 5-летним стажем в создании веб-приложений. 
+            Специализируюсь на frontend-разработке с использованием современных технологий.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Опыт работы</div>
+        <table>
+            <tr>
+                <th>Период</th>
+                <th>Компания</th>
+                <th>Должность</th>
+                <th>Обязанности</th>
+            </tr>
+            <tr>
+                <td>2020 - настоящее время</td>
+                <td>Компания А</td>
+                <td>Senior Developer</td>
+                <td>
+                    <ul>
+                        <li>Разработка frontend-части веб-приложений</li>
+                        <li>Оптимизация производительности</li>
+                        <li>Работа с командой разработчиков</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Образование</div>
+        <ul>
+            <li>
+                <strong>Московский государственный университет</strong><br>
+                Специальность: Программная инженерия (2015-2019)
+            </li>
+        </ul>
+    </div>
